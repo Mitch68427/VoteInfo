@@ -1,0 +1,10 @@
+---
+name: VoteInfo
+author: Mitch
+version: 1.0.0
+api: 3.18.0
+main: Mitch\voteinfo\main
+commands:
+  voteinfo:
+    description: "Provides vote infomation"
+...
