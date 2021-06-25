@@ -32,8 +32,9 @@ class Main extends PluginBase
             return;
             }
         });
-        $form->setTitle("Vote Infomation");
-        $form->setContent("Vote Infomation");
+        $form->setTitle("§2Vote Infomation");
+        $form->setContent("§aVote Rewards");
+	$form->setContent("§7x1 Vote Key");
         $form->addButton("Close");
         $player->sendForm($form);
     }
