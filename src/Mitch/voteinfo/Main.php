@@ -33,8 +33,7 @@ class Main extends PluginBase
             }
         });
         $form->setTitle("§2Vote Infomation");
-        $form->setContent("§aVote Rewards");
-	$form->setContent("§7x1 Vote Key");
+        $form->setContent("§eVote Rewards: §7x1 Vote key!");
         $form->addButton("Close");
         $player->sendForm($form);
     }
